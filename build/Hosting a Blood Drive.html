@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+background-image: url("Host a Blood Drive1.jpg");}
+* {box-sizing: border-box;}
+
+h2{
+    font-size: 25px; 
+    text-align: center;
+}
+
+h4{
+    font-size: 15px;
+    text-align: center;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: MediumSeaGreen;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:  #111;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+</style>
+</head>
+<body>
+
+<ul>
+ <li><a class="active" href="Home.html">Home</a></li>
+  <li><a href="Find and Donate.html">Find and Donate</a></li>
+  <li><a href="Donor Login and Registration.html">Donor Login and Registration</a></li>
+  <li><a href="Newsroom and Metrics.html">Newsroom and Metrics</a></li>
+  <li><a href="Gallery.html">Gallery</a></li>
+  <li><a href="contact us.html">Contact Us</a></li>
+</ul>
+
+<div class="header">
+  <h1>Host a Blood Drive</h1>
+  <p style="color:black;"><b>"One person can help save hundreds of lives by hosting a blood drive. It's a rewarding experience"</b></p> 
+  <img src="Host a Blood Drive2.jpg" alt="Blood" height=100px width=100px>
+</div>
+
+<h2 style="color: white;"><b>What a Host Does</b></h2>
+<h4 style="color: white;">*Provides a suitable location! A large, open space is best, so we can create separate zones for conducting confidential eligibility assessments and collecting donations.<br>
+*Publicizes the blood drive! The more people who know about your blood drive – both within your organization and in the community – the more donors you can sign up.<br> 
+*Organizes a recruitment committee to recruit donors! Face-to-face requests are the most effective form of recruitment. Don’t do this alone; build a team to help spread the word.<br>
+*Schedules donors for appointments! Plus, you’ll do follow ups during the drive to ensure donors don’t miss their appointments, and reach out afterward to say thank you. </h4>
+
+<h5 style="color: yellow;">Register your Organisation for Hosting a Blood Drive</h5>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Organisation</label>
+    <input type="text" id="fname" name="firstname" placeholder="Enter your Organisation Name...">
+
+    <label for="lname">City</label>
+    <input type="text" id="City" name="lastname" placeholder="City of the Organisation...">
+    
+    <label for="lname">Area</label>
+    <input type="text" id="Area" name="lastname" placeholder="Area of the Organisation...">
+    
+    <label for="lname">Pin Code</label>
+    <input type="text" id="lname" name="lastname" placeholder="Pinc Code of the Organisation...">
+
+    <label for="lname">Contact</label>
+    <input type="text" id="lname" name="lastname" placeholder="Share your Email with us..">
+
+    <label for="subject">About Your Organisation</label>
+    <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+    <input type="button" value="Go back!" onclick="history.back()">
+
+  </form>
+</div>
+
+</body>
+</html>
+

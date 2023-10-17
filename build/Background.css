@@ -1,0 +1,25 @@
+body{
+      background-image: url("Welcome1.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: 100% 100%;
+      background-opacity: 0.5;
+      }
+
+
+
+h2{
+    margin-top: 150px;
+    text-align: center;s
+    font-size: 60px;
+    font-family: 'century gothic';
+    color: black;
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px white, 
+                 0 0 30px white, 
+                 0 0 40px white, 
+                 0 0 55px white, 
+                 0 0 70px white;
+}

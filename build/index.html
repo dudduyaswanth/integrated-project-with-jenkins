@@ -1,0 +1,241 @@
+<html>
+ <head>
+ <title> Blood Donation | Home Page</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+ </head>
+<style type=text/css>  
+
+#borderimg { 
+  border: 0px solid transparent;
+  padding: 0px;
+  border-image: url("Home1.png");
+}
+
+.mySlides {display:none;
+margin: 0;
+background-size: cover;
+height:70%;}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #111;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
+body {  
+height: 130vh;  
+margin-top: 25px;  
+padding: 0px;  
+background-size: cover;  
+font-family: sans-serif;  
+}  
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:  #111;
+}
+
+.card {
+  background-color:white;
+  padding: 20px;
+  background-image: url("bld1.jpg");
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge{
+  position: absolute;
+  top: -20px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color:white; 
+}
+
+.card {
+  background-color: #A0A0A0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo-img{
+    float: right;
+    position: relative;
+    margin: -5px px px px;
+}
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
+</style>  
+</Head>  
+
+<body><div style="background-color: #333; color:white;">
+
+
+<ul>
+  <li><a class="active" href="Home.html">Home</a></li>
+  <li><a href="Find and Donate.html">Find and Donate</a></li>
+  <li><a href="Donor Login and Registration.html">Donor Login and Registration</a></li>
+  <li><a href="Newsroom and Metrics.html">Newsroom and Metrics</a></li>
+  <li><a href="Gallery.html">Gallery</a></li>
+  <li><a href="contact us.html">Contact Us</a></li>
+</ul>
+
+<div class="w3-content w3-section" style="max-width:100%">
+  <img class="mySlides" src="Home2.png" style="width:100%">
+  <img class="mySlides" src="Home3.jpg" style="width:100%">
+  <img class="mySlides" src="Home4.jpg" style="width:100%">
+   <img class="mySlides" src="Home5.jpg" style="width:100%">
+ 
+</div>
+
+<a href="Next Blood Drive.html" class="notification">
+  <span>Next Blood Drives</span>
+  <span class="badge">3</span>
+</a>
+
+<div class="slideshow-container">
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h1 style="color: black; text-shadow: 0 0 3px #FF0000">BLOOD DONATION</h1>
+      <p style="color:black;">A blood donation occurs when a person voluntarily has blood drawn and used for transfusions and/or made into biopharmaceutical
+medications by a process called fractionation. Donation may be of whole blood, or of specific
+components directly (apheresis). Blood banks often participate in the collection process as well as the procedures that follow it.
+Today in the developed world, most blood donors are unpaid volunteers who donate blood for a community supply. In some countries,
+established supplies are limited and donors usually give blood when family or friends need a transfusion (directed donation).</p>
+      <p style="color:black;">Many donors donate for several reasons, such as a form of charity, general awareness regarding the demand for blood, increased
+confidence in oneself, helping a personal friend/relative, and social pressure. Despite the many reasons that people donate, not
+enough potential donors actively donate. However, this is reversed during disasters when blood donations increase, often creating
+an excess supply that will have to be later discarded. However, in countries that allow paid donation some people are paid, and in
+ some cases there are incentives other than money such as paid time off from work. People can also have blood drawn for their own
+future use. Donating is relatively safe, but some donors have bruising where the needle is inserted or may
+feel faint.</p>
+  </div>
+
+      <h1></a><p style="color:black;text-shadow: 0 0 3px #FF0000">WHO CAN DONATE BLOOD? </p></h1>
+        <img src="https://media.giphy.com/media/xUA7biF7n8LcAqh4bK/source.gif" alt="Computer man" style="width:200px;height:200px;" ALIGN = "right">
+      <p style="color:black;">In most states, you must be 17 or older to donate whole blood. In states where 16 year olds are eligible to donate, we require a signed parental consent form.
+You must weigh at least 110 lbs.and be in good health that means you feel well and can perform normal activities. If you have a chronic condition such as diabetes and you want to donate blood, it's important that you are being treated and the condition is under control. If you're not feeling well on the day of your donation, please contact us to reschedule.
+Additional eligibility criteria apply, including certain medications, medical conditions, travel to certain countries, and personal history. You can browse the most common reasons people may not be able to give blood, or view our complete eligibility requirements.<br>You must be in good health at the time you donate.
+You cannot donate if you have a cold, flu, sore throat, cold sore, stomach bug or any other infection.
+If you have recently had a tattoo or body piercing you cannot donate for 6 months from the date of the procedure.  If the body piercing was performed by a registered health professional and any inflammation has settled completely, you can donate blood after 12 hours.
+If you have visited the dentist for a minor procedure you must wait 24 hours before donating; for major work wait a month.
+You must not donate blood If you do not meet the minimum haemoglobin level for blood donation:
+A test will be administered at the donation site. In many countries, a haemoglobin level of not less than 12.0 g/dl for females and not less than 13.0 g/dl for males as the threshold.
+      </p>
+
+    
+
+<div class="card">
+<p3>
+<h1> <p style="color:black;text-shadow: 0 0 3px #FF0000">WHO CANNOT DONATE BLOOD? </p> </h1>                    
+<p style="color:black;">Persons with the these conditions are not allowed to donate blood anyime: Cancer,Cardiac disease,Sever lung disease,Hepatitis B and C,HIV infection, AIDS or Sexually Transmitted Diseases (STD),High risk occupation (e.g. prostitution),Unexplained weight loss of more than 5 kg over 6 months,Chronic alcoholism,Other conditions or disease stated in the Guide to Medical Assessment of Blood Donors.</p>
+</div>
+<img src="https://media.giphy.com/media/XCwyk8GMYxDTFCrPeM/giphy.gif" alt="Computer man" style="width:200px;height:180px;" ALIGN = "right">
+ <p4> <h1> <p style="color:black;text-shadow: 0 0 3px #FF0000">DONATION PROCESS<p></h1>
+  <p style="color:black;">1) We'll get in and go over basic eligibility.<br>
+ 2) You'll be asked to show ID, such as your driver's license or Aadhar Card.<br>
+3) You'll read some information about donating blood.<br>
+4) We'll ask you for your complete address.  Your address needs to be complete (including PO Box, street/apartment number) and the place where you will receive your mail 8 weeks from donation.</p>
+ 
+</body>
+</html>

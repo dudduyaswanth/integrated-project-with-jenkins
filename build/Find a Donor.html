@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+background-image: url("Find a Donor1.jpg");}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:  #111;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+ <li><a class="active" href="Home.html">Home</a></li>
+  <li><a href="Find and Donate.html">Find and Donate</a></li>
+  <li><a href="Donor Login and Registration.html">Donor Login and Registration</a></li>
+  <li><a href="Newsroom and Metrics.html">Newsroom and Metrics</a></li>
+  <li><a href="Gallery.html">Gallery</a></li>
+  <li><a href="contact us.html">Contact Us</a></li>
+</ul>
+
+<h3 style="color:white;">Find a Donor and Register for Blood Drive</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">State</label>
+    <input type="text" id="fname" name="firstname" placeholder="State you belong from..">
+
+    <label for="lname">City</label>
+    <input type="text" id="City" name="lastname" placeholder="City you belong from..">
+    
+    <label for="lname">Area</label>
+    <input type="text" id="Area" name="lastname" placeholder="Area you belong from..">
+    
+    <label for="lname">Pin Code</label>
+    <input type="text" id="lname" name="lastname" placeholder="Enter your Area Pincode..">
+
+    <label for="country">Blood Group</label>
+    <select id="country" name="country">
+      <option value="A+">A+</option>
+      <option value="A-">A-</option>
+      <option value="B+">B+</option>
+      <option value="B-">B-</option>
+      <option value="AB+">AB+</option>
+      <option value="AB-">AB-</option>
+      <option value="O+">O+</option>
+      <option value="O-">O-</option>
+    </select>
+
+    <label for="subject">Your Request and Concern</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+    <input type="button" value="Go back!" onclick="history.back()">
+
+  </form>
+</div>
+
+</body>
+</html>
